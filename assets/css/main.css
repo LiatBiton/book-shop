@@ -1,0 +1,129 @@
+@import './cmps/review-add.css';
+@import './cmps/book-details.css';
+@import './cmps/book-add.css';
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d1e3e4;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 0.3rem 1.2rem;
+    border-radius: 2rem;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    height: 10vh;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+    background-color: rgb(53, 52, 53);
+    color: white;
+}
+
+.book-filter {
+    padding: 0rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.book-filter > *:not(:last-child) {
+    margin-inline-end: 1rem;
+}
+
+.book-list {
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.book-preview {
+    cursor: pointer;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.book-preview img {
+    width: 150px;
+}
+/* 
+.book-details {
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-details > *:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.book-details img {
+    width: 500px;
+}
+
+.long-text {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* text-align: left;
+} */
+
+.long-text span {
+    margin-right: 5px;
+} */
+
+.about{
+    background-color: white;
+    height: 100vh;
+    padding: 10%;
+
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+    width:200px;
+    
+    
+}
+
+.main-nav a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.home{
+    height: 100vh;
+    padding: 10%;
+    background-color: white;
+}
+
+.about-img{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
